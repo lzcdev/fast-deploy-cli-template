@@ -1,28 +1,38 @@
-const config = [
-  {
+const config = {
+  projectName: 'xxx商城项目',
+  dev: {
     name: 'dev',
-    script: "npm run build", 
     sshConfig: {
-      host: '',
+      host: '47.96.73.255',
       port: 22,
-      username: '',
-      password: '',
+      username: 'root',
+      password: 'chaoChao2134',
     },
-    webDir: '',
+    webDir: '/root',
     distPath: 'dist'
   },
-  {
-    name: 'pro',
-    script: "npm run build", 
+  pre: {
+    name: 'pre',
     sshConfig: {
-      host: '',
+      host: '47.96.73.255',
       port: 22,
-      username: '',
-      password: '',
+      username: 'root',
+      password: 'chaoChao2134',
     },
-    webDir: '',
+    webDir: '/root',
+    distPath: 'dist'
+  },
+  pro: {
+    name: 'pro',
+    sshConfig: {
+      host: '47.96.73.255',
+      port: 22,
+      username: 'root',
+      password: 'chaoChao2134',
+    },
+    webDir: '/root',
     distPath: 'dist'
   }
-]
+}
 
 module.exports = config
