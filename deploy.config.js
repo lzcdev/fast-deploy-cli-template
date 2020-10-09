@@ -3,10 +3,10 @@ const config = {
   dev: {
     name: 'dev',
     sshConfig: {
-      host: '47.96.73.255',
+      host: '',
       port: 22,
       username: 'root',
-      password: 'chaoChao2134',
+      password: '',
     },
     webDir: '/root',
     distPath: 'dist'
@@ -14,10 +14,10 @@ const config = {
   pre: {
     name: 'pre',
     sshConfig: {
-      host: '47.96.73.255',
+      host: '',
       port: 22,
       username: 'root',
-      password: 'chaoChao2134',
+      password: '',
     },
     webDir: '/root',
     distPath: 'dist'
@@ -25,10 +25,10 @@ const config = {
   pro: {
     name: 'pro',
     sshConfig: {
-      host: '47.96.73.255',
+      host: '',
       port: 22,
       username: 'root',
-      password: 'chaoChao2134',
+      password: '',
     },
     webDir: '/root',
     distPath: 'dist'
